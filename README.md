@@ -14,6 +14,6 @@ assets/js/main.js       Scroll reveals, sticky nav, mobile menu, comparison slid
 
 No build step. Preview locally with `npx serve .` (or any static server).
 
-## Deploy (Cloudflare Pages)
-Connected to this repo via Git integration — build command: *(none)*, output directory: `/`.
+## Deploy (Cloudflare Workers static assets)
+Cloudflare Worker `portfolio` is connected to this repo via Git integration; `wrangler.jsonc` serves the repo root as static assets.
 Custom domain: `torasuman.co`. Every push to `main` deploys automatically.
